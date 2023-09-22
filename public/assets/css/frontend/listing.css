@@ -1,0 +1,207 @@
+.d-none{
+    display: none;
+}
+.btn-download {
+    margin-right: 10px;
+}
+td, th {
+    text-align: center;
+}
+button:hover {
+    background: #000000bf !important;
+    transition: 0.3s ease;
+}
+button.close:hover {
+    background: transparent !important;
+}
+a.btn.btn-inverse-dark {
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+button{
+    transition: 0.3s ease;
+}
+.customers .grid {
+    align-items: center;
+    display: flex;
+}
+.address-edit-toggle {
+    margin-top: 20px;
+}
+.modal-body {
+    background: #fff;
+    padding: 50px 20px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.modal-content {
+    position: relative;
+}
+.close {
+    position: absolute;
+    right: 40px;
+    font-size: 40px;
+    top: 10px;
+    z-index: 99;
+}
+.modal-header .modal-title {
+    position: absolute;
+    top: 20px;
+    z-index: 99;
+    left: 20px;
+}
+
+.lc-img-container {
+    display: inline-flex !important;
+    margin-right: 2px;
+    position: relative;
+}
+
+img.thumb-lg.img-thumbnail {
+    width: 200px;
+    height: 200px;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0 2rem;
+}
+/**04-11-2022**/
+#downloadPopup {
+    background: #fff;
+}
+#downloadPopup .modal-body {
+    background: #fff;
+    padding: 50px 0;
+    position: absolute;
+    top: 90px !important;
+    width: 100% !important;
+    left: 0% !important;
+    text-align: center;
+}
+#downloadPopup .download_file {
+    position: absolute;
+    left: 51px;
+    bottom: -4px;
+    z-index: 9;
+    transform: translate(0, -50%);
+}
+#downloadPopup .modal-header h5 {
+    font-size: 32px;
+    margin: 0;
+}
+#downloadPopup .modal-header .modal-title {
+    position: absolute;
+    top: 20px;
+    z-index: 99;
+    left: 0;
+    transform: translate(50%, 0%);
+    text-decoration: underline;
+}
+#downloadPopup .download_file i {
+    color: #fff;
+}
+.wss-processing {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 45px;
+    height: 45px;
+    -webkit-appearance: auto !important;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+.wss-processing {
+    top: 40%;
+    right: 50%;
+    z-index: 999;
+    position: fixed;
+}
+.lc-img-container:before {
+    content: "";
+    background: #00000082;
+    width: 72%;
+    height: 24%;
+    position: absolute;
+    margin: 0 0px;
+    left: 37px;
+    bottom: 6px;
+}
+.lc-img-container{
+    position: relative;
+}
+/**media**/
+@media only screen and (max-width: 1199px) {
+.btn-download {
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+}
+@media only screen and (max-width: 991px) {
+.btn-download {
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.customers .grid {
+    display: block;
+}
+#tblQuote {
+    margin-bottom: 20px;
+}
+.modal {
+    overflow: scroll;
+}
+img.thumb-lg.img-thumbnail {
+    margin: 0 1rem;
+}
+.lc-img-container:before {
+    width: 81%;
+    left: 22px;
+}
+#downloadPopup .download_file {
+    left: 40px;
+    bottom: 2px;
+}
+}
+
+@media only screen and (max-width:575px) {
+.customers .section-header__title {
+    font-size: 30px;
+}
+#downloadPopup .modal-header .modal-title {
+    top: 50px;
+    left: 0;
+}
+#downloadPopup .modal-header h5 {
+    font-size: 27px;
+}
+.close {
+    right: 20px;
+    top: -10px;
+    font-size: 35px;
+}
+}
+@media only screen and (max-width:479px) {
+.customers .section-header {
+    margin-top: 20px;
+}
+.close {
+    right: 10px;
+    top: -10px;
+}
+
+.modal-body {
+    width: 400px;
+}
+#downloadPopup .modal-header .modal-title {
+    left: -100px;
+}
+#downloadPopup .modal-header .modal-title {
+    left: -90px;
+    top: 70px;
+}
+}
